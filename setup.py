@@ -45,8 +45,8 @@ if __name__ == "__main__":
         long_description=read("README.rst"),
         packages=find_packages(),
         scripts=glob.glob(os.path.join(src_dir, "scripts", "*")),
-        install_requires=install_requires,
-        tests_require=tests_require,
+        #install_requires=install_requires,
+        #tests_require=tests_require,
         setup_requires=setup_requires,
         test_suite="nose.collector",
     )
